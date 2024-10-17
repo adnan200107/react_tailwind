@@ -1,0 +1,6 @@
+.custom-header-img {
+    max-width: 300px; /* Limite la largeur maximale */
+    height: auto; /* Garde les proportions */
+    border-radius: 10%; /* Rend l'image circulaire */
+  }
+  

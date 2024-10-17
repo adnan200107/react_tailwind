@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './navbar.css'; // Ensure you include your custom CSS
 import { Link } from 'react-router-dom';
+import logoadnan from "../assets/logoadnan.png";
+
 
 function Navbar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -10,8 +12,12 @@ function Navbar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+          <div className="flex items-center">
+            {/* Replace with your small image or icon */}
+            <img src={logoadnan} alt="Adnan Logo" className="h-8 mr-2" />
+            <span className="self-center text-2xl font-semibold text-white">Adnan</span>
+          </div>
+
         </Link>
 
         {/* Center Navigation Links */}
