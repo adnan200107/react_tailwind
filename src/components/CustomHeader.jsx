@@ -16,7 +16,7 @@ export default function CustomHeader() {
                     <div className="w-full lg:w-7/12 text-center lg:text-left">
                         <h3 className="text-white font-normal mb-3">I'm</h3>
                         <h1 className="text-4xl lg:text-6xl text-white font-bold mb-2" style={{ WebkitTextStroke: '2px #ffffff' }}>Adnan Labzioui</h1>
-                        <h1 className="typed-text-output d-inline font-light text-white"></h1>
+                        {/* <h1 className="typed-text-output d-inline font-light text-white"></h1> */}
                         <div className="typed-text hidden">Web Developer, Full Stack Developer</div>
                         <div className="flex items-center justify-center lg:justify-start pt-10">
                             <button type="button" className="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
